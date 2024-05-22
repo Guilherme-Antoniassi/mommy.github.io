@@ -1,0 +1,243 @@
+
+/* Estilos Gerais */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Estilos do Cabeçalho */
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(158, 139, 139, 0.68);
+    padding: 30px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 10px;
+    padding-left: 40px;
+    font-size: 24px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px 35px;
+    margin-right: 240px;
+    height: 90px;
+   font-size: 25px;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 30px;
+    cursor:pointer;
+   
+}
+
+nav ul li:hover {
+    background: rgba(140, 140, 140, 0.4);
+}
+
+.link:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+nav ul li a {
+    color: #4f4f4f;
+    text-decoration: none;
+   
+}
+header a{
+    font-size: 25px;
+}
+
+
+/* Estilos do Banner */
+
+section#banner {
+    color: #fff;
+    text-align: center;
+}
+
+section#banner h1 {
+    margin: 0;
+    font-size: 36px;
+}
+.banner-image{
+    width: 100%;
+}
+
+.btn-voltar-topo {
+    background-color: #4f4f4f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-voltar-topo:hover {
+    background-color: #333333;
+}
+
+
+/* Estilos do Rodapé */
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos de Imagem */
+
+.logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 100px; 
+    height: auto;
+    z-index: 999; 
+}
+
+.sobre-image,
+.bazar-image {
+    width: 100%; 
+    height: auto;
+    margin-top: 20px; 
+}
+
+#sobre {
+    margin: 10px;
+}
+#sobre h2{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+#sobre p{
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+#sobre img{
+    border-radius: 50px;
+}
+.sobreLar{
+    border-radius: 50px;
+    background: crimson;
+}
+.comoAjudar{
+    background-color: #e7e7e7;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+}
+table tr td{
+    width: 50%;
+    margin: 30px;
+    padding: 30px;
+}
+.fundo{
+    background-color: #e7e7e7;
+}
+.width90roupas{
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+.width90moveis{
+    background-color: #e7e7e7;
+    width: 90%;
+    margin: 0 auto;
+}
+.width90sebo{
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+.width90doacoes{
+    background-color: #e7e7e7;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.roupas  h2{
+    font-size: 50px;
+    text-align: left;
+    color: crimson;
+}
+.roupas table{
+    background-color: #e7e7e7;
+    border-radius: 50px;
+}
+.roupas h6{ /* h6 da table dentro da table */
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.desc{ /* p */
+    text-align: justify;
+    font-size: 40px;
+}
+.tipoRoupa{ /* p da table dentro da table */
+    font-size: 20px;
+}
+
+.moveis h2{
+    font-size: 50px;
+    text-align: left;
+    color: crimson;
+}
+
+.sebo h2{
+    font-size: 50px;
+    text-align: left;
+    color: crimson;
+}
+
+.width90doacoes h2{
+    font-size: 50px;
+    text-align: left;
+    color: crimson;
+}
+.width90doacoes h6{
+    font-size: 30px;
+    text-align: center;
+}
+.segtable{
+    background-color: white;
+    border-radius: 50px;
+}
+.servicos-info img{
+    border-radius: 50px;
+}
+
+
+
+
+
